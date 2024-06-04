@@ -972,7 +972,7 @@ section {
 }
 
 .services .service-item h3 {
-  color: var(--color-default);
+  color: red;
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -1378,7 +1378,12 @@ section {
   overflow: hidden;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
-
+#bgm{
+  background-image: url(../img/gameSetup.jpg);
+  width: 100rem;
+  height: 100rem;
+  background-repeat: no-repeat;
+}
 .team .member img {
   border-radius: 10px;
   overflow: hidden;
@@ -1992,7 +1997,7 @@ background-size: cover;
 }
 
 .hero .icon-box .title a {
-  color: #000;
+  color:#f85a40;
   transition: 0.3s;
 }
 
@@ -2572,7 +2577,7 @@ background-size: cover;
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: var(--color-primary);
+  background-color: #000;
   padding: 50px 0;
   color: white;
 }
